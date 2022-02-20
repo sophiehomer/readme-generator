@@ -4,9 +4,7 @@ const inquirer = require("inquirer");
 const generateMd = require("./utils/generateMarkdown");
 
 // Questions Array
-//const questions = [];
-
-inquirer.prompt([
+const questions = [
     {
         type:"input",
         name:"title",
@@ -16,6 +14,11 @@ inquirer.prompt([
         type:"input",
         name:"description",
         message:"Provide a brief description of your project."
+    },
+    {
+        type:"input",
+        name:"table",
+        message:"Add a table of contents to make it easy for users to find what they need "
     },
     {
         type:"input",
@@ -30,7 +33,7 @@ inquirer.prompt([
     {
         type:"input",
         name:"credits",
-        message:"List collaborators."
+        message:"List any collaborators."
     },
     {
         type:"list",
@@ -53,16 +56,29 @@ inquirer.prompt([
         name:"email",
         message:"Enter your email address." 
     }
+];
+
+// inquirer.prompt([
+   
     
-    ]).then(answer => {
-    
-    })
+//     ]).then(answer => {
+//     console.log(answer.title)
+//     })
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+  return fs.writeFileSync(fileName, JSON.stringify(data)) 
+}
+
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+ inquirer.prompt(questions).then(answers => {
+     console.log (answers)
+    writeToFile("./README.md", generateMd(answers))    
+ })   
+
+}
 
 // Function call to initialize app
 init();
