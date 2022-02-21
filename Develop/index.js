@@ -58,18 +58,10 @@ const questions = [
     }
 ];
 
-// inquirer.prompt([
-   
-    
-//     ]).then(answer => {
-//     console.log(answer.title)
-//     })
-
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
   return fs.writeFileSync(fileName, JSON.stringify(data)) 
 }
-
 
 // TODO: Create a function to initialize app
 function init() {
