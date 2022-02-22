@@ -16,10 +16,10 @@ To install the necessary dependencies, run
 **npm install**
 
 ## Usage
-Run application in the terminal.
+Run application in the terminal
 
 ## Credits
-Made by Sophie Homer.
+Made by Sophie Homer
 
 
 ## Questions? Reach Out: 

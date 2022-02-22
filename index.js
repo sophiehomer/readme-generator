@@ -1,9 +1,9 @@
-//Packages
+/* -------------------------------- Packages -------------------------------- */
 const fs = require("fs");
 const inquirer = require("inquirer");
 const generateMd = require("./utils/generateMarkdown");
 
-// Questions Array
+/* -------------------------------- Questions ------------------------------- */
 const questions = [
     {
         type:"input",
@@ -58,12 +58,12 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
+/* ------------------------ Function that creates README ----------------------- */
 function writeToFile(fileName, data) {
   return fs.writeFileSync(fileName, data) 
 }
 
-// Function to initialize app
+/* ----------------------------- Initialize App Function ----------------------------- */
 function init() {
  inquirer.prompt(questions).then(answers => {
      console.log (answers)
@@ -72,5 +72,4 @@ function init() {
 
 }
 
-// Function call to initialize app
 init();

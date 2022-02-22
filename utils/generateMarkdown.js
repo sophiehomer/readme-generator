@@ -1,5 +1,5 @@
-//Function that returns a license badge and license link
-// If no license, returns an empty string
+/* -------------- Function that returns a license badge and license link ------------- */
+   /* ------------If there's no license, fuction returns an empty string ------------ */
 function renderLicenseBadge(license) {
   switch(license) {
    case "Apache 2.0 License":
@@ -27,8 +27,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-
-// TODO: Create a function to generate markdown for README
+/* ---------------- Function to generate markdown for README ---------------- */
 function generateMarkdown(data) {
   return `
 # ${data.title}
