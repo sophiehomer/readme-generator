@@ -1,26 +1,27 @@
+# README Generator
 
-# x
 ## Description 
-x
+Application that helps users create a professional README.md. The user is prompted with questions regarding their application, once all of the questions have been answered, a professional README.md is generated.
+
 ## Table of Contents 
-  1. [Installation](#installation)
-  2. [Usage](#usage)
-  3. [Credits](#contribution)
-  4. [License](#license)
-  5. [Tests](#tests)
-  6. [Questions](#questions)
-  
-  ## Installation
-  x
-  ## Usage
-  x
-  ## Credits
-  x
-  ## License
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-  ## Tests
-  
-  ## Questions
-  Questions:
-  [GitHub Acccount](https://github.com/x)
-  Email: x
+[Installation](#installation)
+[Usage](#usage)
+[Credits](#contribution)
+[License](#license)
+[Tests](#tests)
+[Questions](#questions)
+
+## Installation
+To install the necessary dependencies, run 
+**npm install**
+
+## Usage
+Run application in the terminal.
+
+## Credits
+Made by Sophie Homer.
+
+
+## Questions? Reach Out: 
+[GitHub Acccount](https://github.com/sophiehomer) <br>
+Email: sophiehomer94@gmail.com
