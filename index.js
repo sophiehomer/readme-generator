@@ -32,7 +32,7 @@ const questions = [
     },
     {
         type:"input",
-        name:"contributions",
+        name:"credits",
         message:"List any collaborators."
     },
     {

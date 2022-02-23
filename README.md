@@ -6,7 +6,7 @@ Application that helps users create a professional README.md. The user is prompt
 ## Table of Contents 
 [Installation](#installation) <br>
 [Usage](#usage)  <br>
-[Credits](#contribution)  <br>
+[Credits](#credits)  <br>
 [License](#license)  <br>
 [Tests](#tests)  <br>
 [Questions](#questions)  <br>
