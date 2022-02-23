@@ -15,7 +15,8 @@ Application that helps users create a professional README.md. The user is prompt
 npm install
 
 ## Usage
-Run application in the terminal
+Run application in the terminal. View the application walkthrough video below
+https://drive.google.com/file/d/1TMOk2QxK_3zfAE85pTDAK62i38YJ2v_J/view
 
 ## Credits
 Sophie Homer
